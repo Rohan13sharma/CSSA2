@@ -1,0 +1,168 @@
+body{
+    background-image:url(background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.A1 {
+    height: 150px;
+    width: 350px;
+    background-color: violet;
+    border: 5px solid blue;
+    border-radius: 35px;
+}
+
+.h1 {
+    padding-top: 15px;
+    padding-left: 25px;
+    color: blue;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.A2 {
+    display: flex;
+    height: 80px;
+    width: 400px;
+    background-color: violet;
+    border: 5px solid blue;
+    border-radius: 35px;
+    
+}
+
+.h2 {
+    display: flex;
+    align-items: end;
+    padding-left: 50px;
+    color: blue;
+    font-style: italic;
+    font-size: 28px;
+}
+
+.A3 {
+    
+    height: 150px;
+    width: 400px;
+    background-color: violet;
+    border: 5px solid blue;
+    border-radius: 35px;
+}
+
+.h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    padding-left: 25px;
+    color: blue;
+    font-size: x-large;
+    font-style: italic;
+}
+
+  .main {
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    color: blue;
+    text-align: center;
+    border: 5px dashed blue;
+    height: 700px;
+    width: 500px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+input {
+    margin-top: 5px;
+}
+
+.offer {
+    height: 450px;
+    width: 450px;
+    border-radius: 60%;
+    border: 10px solid blue;
+    background-color: violet;
+    text-align: center;
+}
+
+.p1 {
+    margin-top: 100px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.p2 {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    margin-top: 50px;
+    height: 100px;
+    width: 500px;
+    background-color: whitesmoke;
+    border: 5px solid blue;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    font-style: italic;
+}
+
+.menu1
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+}
+.menu2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.item{
+    /* height: 275px; */
+    width: 25%;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: darkblue;
+}
+
+.food{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+li{
+    margin-left: 100px;
+    font-size: larger;
+}
+
